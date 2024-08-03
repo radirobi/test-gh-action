@@ -14,4 +14,6 @@ jobs:
       run: |
         echo "hello from test2"
         echo "$GITHUB_SHA"
+        echo "$GITHUB_REF"
+        echo "commit: ${{ github.event.pull_request.head.sha }}"
         echo "bye from test2"
