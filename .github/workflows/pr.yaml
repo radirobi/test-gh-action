@@ -12,6 +12,6 @@ jobs:
     steps:
     - name: Debug message
       run: |
-        echo "hello from main"
+        echo "hello from test2"
         echo "$GITHUB_SHA"
-        echo "bye from main"
+        echo "bye from test2"
