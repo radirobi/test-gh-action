@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Debug message
       run: |
-        echo "hello from test2"
+        echo "hello asd from test2"
         echo "$GITHUB_SHA"
         echo "$GITHUB_REF"
         echo "commit: ${{ github.event.pull_request.head.sha }}"
